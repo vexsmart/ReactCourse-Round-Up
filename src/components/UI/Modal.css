@@ -1,0 +1,21 @@
+.error-modal {
+    position: fixed;
+    top: 30vh;
+    left: calc(50% - 15rem);
+    width: 30rem;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    z-index: 100;
+    border-radius: 7px;
+  }
+  
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 50;
+  }
+  
