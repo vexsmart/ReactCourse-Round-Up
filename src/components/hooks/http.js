@@ -40,7 +40,6 @@ const useHttp = () => {
     httpDispatch,
     initialState
   );
-
   const clear = useCallback(() => httpDispatchAction({ type: "CLEAR" }), []);
 
   const sendRequest = (url, method, body, reqExtra, reqIdentifier) => {
